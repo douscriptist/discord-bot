@@ -1,21 +1,30 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "description": "a discord bot app for learning discord api",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint /src",
-    "dev": "nodemon ./src/index",
-    "start": "node ./src/index"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "nodemon": "^2.0.2"
-  }
+	"name": "discord-bot",
+	"version": "1.0.0",
+	"description": "a discord bot app for learning discord api",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js",
+		"lint": "eslint /src"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^11.5.1",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"nodemon": "^2.0.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/douscriptist/discord-bot.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/douscriptist/discord-bot/issues"
+	},
+	"homepage": "https://github.com/douscriptist/discord-bot#readme"
 }
