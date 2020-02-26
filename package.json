@@ -4,7 +4,9 @@
   "description": "a discord bot app for learning discord api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint /src",
+    "dev": "nodemon ./src/index",
+    "start": "node ./src/index"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
   }
 }
